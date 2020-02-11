@@ -1,0 +1,12 @@
+{
+    "base_url": "https://speedbangla.akij.net",
+    "api_base_url": "https://speedbangla.akij.net/api/api",
+    "api_signin": "https://speedbangla.akij.net/api/api/login",
+    "api_registration": "https://speedbangla.akij.net/api/api/register",
+    "api_get_questions": "https://speedbangla.akij.net/api/api/questions",
+    "api_store_answer": "https://speedbangla.akij.net/api/api/question-response",
+    "api_daily_winners": "https://speedbangla.akij.net/api/api/daily-winners",
+    "api_monthly_winners": "https://speedbangla.akij.net/api/api/monthly-winners",
+    "api_get_certificate": "https://speedbangla.akij.net/api/api/get-certificate",
+    "api_get_result": "https://speedbangla.akij.net/api/api/get-result"
+}

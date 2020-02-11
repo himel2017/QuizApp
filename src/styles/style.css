@@ -1,0 +1,389 @@
+.row{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/background.png);
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+.layout img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link {
+    color: rgba(255, 252, 252, 0.5) !important;
+}
+
+ .brandImageBox {
+     margin-top: 50px;
+ }
+
+.brandImageBox img {
+    width: 100%;
+}
+
+.BanglaWrite {
+    color: #fff;
+    padding-top: 150px;
+}
+
+.BanglaWrite h2 {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.BanglaWrite p {
+    padding: 10px 0;
+    line-height: 35px;
+    font-size: 17px;
+}
+
+.BanglaWrite button {
+    background: #ec0203;
+    border: 0px solid;
+    padding:  0 20px;
+    line-height: 45px;
+}
+
+ 
+
+.certificateContent {
+    background: url(../images/certificatebg.png);
+    width: 50%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto;
+   
+ }
+
+ 
+
+ /* @media print {
+    body .certificateContent {
+        content:url(../images/certificatebg.png);
+    }
+} */
+
+img.speedbang {
+    width:350px;
+    margin: 0 auto;
+    text-align: center;
+    display: inherit;
+    height: 100%;
+    margin-top: 20px;
+}
+img.win {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    display: inherit;
+    height: 100%;
+}
+ 
+
+.certificateContent {
+    color: #fff;
+    text-align: center;
+ }
+
+.certificateContent h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.certificateContent p {
+    font-size: 20px;
+    line-height: 22px;
+}
+.certificateContent h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    border: 1px solid;
+    width: 250px;
+    line-height: 40px;
+    margin: 40px auto;
+}
+
+#site-navbar {
+    background-color: #20232a;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 20px 0;
+ }
+
+ span.nav-link {
+    color: #fff !important;
+    font-size: 20px;
+    margin-right: 35px;
+}
+nav#site-navbar {
+    background: #000;
+}
+
+button.buttonstyle.btn.btn-primary {
+    background: #fff;
+    border: 0px solid;
+    color:#000;
+}
+
+
+ .form-control-error{
+     border: 1px solid red!important;
+ }
+
+ .form-control-success{
+     border: 1px solid green!important;
+ }
+
+.quiz .react-timer {
+    padding: 0 !important;
+    margin: 0 !important;
+  
+}
+
+.quiz {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: #fff;
+}
+.quiz{
+    margin: 80px 0;
+    padding: 30px;
+}
+.quiz h2 {
+    line-height: 50px;
+}
+
+.question h4 {
+    padding: 10px 0;
+}
+
+.question input {
+    margin-bottom: 20px;
+}
+
+.boxSorry {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 20px;
+    color: red
+}
+
+.clock i {
+    width: 50px;
+    font-size: 30px;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid #000;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: #000;
+}
+
+button.btn.btn-success {
+    width: 130px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button.btn.btn-success i {
+    margin: 0 6px;
+}
+
+.list {
+    padding: 30px 0;
+}
+
+.list h1 {
+    text-align: center;
+    line-height: 70px;
+   
+    color: #E41713;
+}
+
+.list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list ul li {
+    line-height: 40px;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.listlogin h1{
+    text-align: center; 
+    line-height: 70px; 
+    margin: 15px auto;
+    color:#E41713
+}
+
+.centerbox {
+    margin: 0 auto;
+}
+
+.centerbox {
+    margin: 0 auto;
+}
+
+
+.boxSorry h1 {
+    color: red;
+}
+
+.shows{
+    display: none;
+}
+
+.hides{
+    display: block;
+}
+
+@media (max-width : 767px){ 
+
+    .shows{
+        display: block;
+    }
+    
+    .hides{
+        display: none;
+    }
+
+.certificateContent {
+   
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+button.navbar-toggler {
+    background: #fff !important;
+    float: right;
+    width: 55px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 9;
+    
+}
+div#basic-navbar-nav {
+    z-index: 1;
+    position: absolute;
+    top: 40px;
+    background: #000;
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+nav#site-navbar {
+    background: #000;
+    height: 65px;
+}
+
+ 
+.BanglaWrite {
+    color: #fff;
+    padding-top: 26px;
+    text-align: center;
+}
+
+.quiz {
+    margin: 20px;
+}
+.boxSorry {
+    padding: 0;
+}
+
+.react-timer h3 {
+    font-size: 30px !important;
+}
+.clock i {
+    width: 36px;
+    font-size: 22px;
+    float: left;
+    height: 37px;
+    line-height: 30px;
+    border: 2px solid #000;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 10px;
+    color: #000;
+}
+.quiz h2 {
+    line-height: 50px;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.boxSorry h1 {
+    color: red;
+    font-size: 26px;
+}
+
+.login.bp .p-3.card {
+    height: auto;
+    padding-top: 20px !important;
+}
+
+.list h1 { 
+    font-size: 24px;
+}
+
+.login.bp {
+    height: auto;
+}
+
+}
+
+.login.mylogin.bp {
+    height: 100vh !important;
+}
+
+ 
+
+.login.bp .p-3.card {
+    height: auto;
+    padding-top: 50px !important;
+}
+ 
+.login.bp .form-group input {
+    border: 0px;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    font-size: 14px !important;
+    font-weight: 700;
+    padding-left: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.login.bp button.btn.btn-primary {
+    background: #E41713 !important;
+    width: 100% !important;
+    line-height: 35px !important;
+    border: 0px !important;
+    border-radius: 10px !important;
+}
+
+.login.bp a.btn.btn-primary {
+    border: 2px solid #fff !important;
+    background: transparent;
+    padding: 5px 15px;
+}
